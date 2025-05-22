@@ -38,6 +38,6 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: '<Your-Service-Connection-Name>'
-    appName: '<Your-WebApp-Name>'
+    azureSubscription: 'testservicesam'
+    appName: 'testwebappsam1'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
